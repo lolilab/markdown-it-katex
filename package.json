@@ -1,0 +1,38 @@
+{
+  "name": "@andatoshiki/markdown-it-katex",
+  "version": "0.0.1",
+  "description": "Fast math support for markdown-it with KaTeX",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "watch": "watchify browser.js -o bundle.js -v",
+    "test": "uvu",
+    "lint": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:lolilab/markdown-it-katex.git"
+  },
+  "keywords": [
+    "markdown",
+    "KaTeX",
+    "math",
+    "LaTeX",
+    "markdown-it-plugin",
+    "markdown-it"
+  ],
+  "author": "Anda Toshiki <hello@toshiki.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.14.0",
+    "@types/markdown-it": "^12.0.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-testgen": "^0.1.6",
+    "prettier": "2.8.4",
+    "uvu": "^0.5.3",
+    "watchify": "4.0.0"
+  }
+}
