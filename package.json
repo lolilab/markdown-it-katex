@@ -27,7 +27,7 @@
   "author": "Anda Toshiki <hello@toshiki.dev>",
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.16.0"
+    "katex": "^0.16.4"
   },
   "devDependencies": {
     "@types/katex": "^0.14.0",
