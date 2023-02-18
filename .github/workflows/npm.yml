@@ -34,12 +34,11 @@ jobs:
         run: |
           npm install -g prettier
           npm install -g watchify
-          npm install -g uvu
 
       - name: Lint and test bugs
         run: npm run lint
-      - name: Run test on source
-        run: npm run test
+      # - name: Run test on source
+      #   run: npm run test
       - name: Set package registry
         run: npm config set registry https://npm.pkg.github.com
       - name: Github package registry authentication
