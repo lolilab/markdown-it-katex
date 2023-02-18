@@ -30,6 +30,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Install global dependencies
+        run:
+          - npm install -g prettier
+          - npm install -g watchify
+
       - name: Lint and test bugs
         run: npm run lint
       - name: Run test on source
