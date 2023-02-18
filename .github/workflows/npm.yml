@@ -34,6 +34,7 @@ jobs:
         run: |
           npm install -g prettier
           npm install -g watchify
+          npm install -g uvu
 
       - name: Lint and test bugs
         run: npm run lint
