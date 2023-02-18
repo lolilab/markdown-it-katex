@@ -8,7 +8,9 @@
     "watch": "watchify browser.js -o bundle.js -v",
     "test": "uvu",
     "lint": "prettier --write .",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "publish-npm": "npm publish --access public --ignore-scripts --@andatoshiiki:registry='https://registry.npmjs.org'",
+    "lint-commit": "git commit -m 'chore(lint): lint all files in project via prettier'"
   },
   "repository": {
     "type": "git",
