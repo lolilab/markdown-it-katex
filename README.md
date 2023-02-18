@@ -1,9 +1,8 @@
-# markdown-it-katex
+# @andatoshiki/markdown-it-katex
 
 [![npm version](https://badge.fury.io/js/%40lolilab%2Fmarkdown-it-katex.svg)](https://badge.fury.io/js/%40lolilab%2Fmarkdown-it-katex)
 ![check npm ci & run test](https://github.com/lolilab/markdown-it-katex/workflows/check%20npm%20ci%20&%20run%20test/badge.svg)
-![automatic publish](https://github.com/lolilab/markdown-it-katex/workflows/automatic%20publish/badge.svg)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=lolilab/markdown-it-katex)](https://dependabot.com)
+[![CI/CD pipeline](https://github.com/lolilab/markdown-it-katex/actions/workflows/npm.yml/badge.svg)](https://github.com/lolilab/markdown-it-katex/actions/workflows/npm.yml)
 
 Add KaTeX rendering to your Markdown
 
