@@ -31,9 +31,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Lint and test bugs
-        run: |
-          - npm run lint
-          - npm run test
+        run: npm run lint
+      - name: Run test on source
+        run: npm run test
       - name: Set package registry
         run: npm config set registry https://npm.pkg.github.com
       - name: Github package registry authentication
