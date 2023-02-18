@@ -1,6 +1,6 @@
 {
   "name": "@andatoshiki/markdown-it-katex",
-  "version": "0.0.1-beta",
+  "version": "0.0.2",
   "description": "⚒️ Mirror & fork of original deprecated markdown-it-katex package in favor of higher KaTeX version support for personal project usages.",
   "main": "index.js",
   "types": "index.d.ts",
